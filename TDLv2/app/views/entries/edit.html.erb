@@ -2,5 +2,10 @@
 
 <%= render 'form', entry: @entry %>
 
-<%= link_to 'Show', @entry %> |
+<h2>Tags:</h2>
+<%= render @entry.tags %>
+
+<h2>Add a tag:</h2>
+<%= render 'tags/form' %>
+
 <%= link_to 'Back', entries_path %>
