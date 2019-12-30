@@ -1,9 +1,11 @@
 class EntriesController < ApplicationController
   before_action :set_entry, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
+  
   # GET /entries
   # GET /entries.json
   def index
+    @user = current_user.id
     @entries = Entry.all
   end
 
@@ -26,18 +28,17 @@ class EntriesController < ApplicationController
   # POST /entries
   # POST /entries.json
   def create
-    #@user = Users.find(params[:user_id])
-    @entry = Entry.new(entry_params)
-
+    @entry = current_user.entries.build(entry_params)
     respond_to do |format|
       if @entry.save
-        format.html { redirect_to @entry, notice: 'Entry was successfully created.' }
+        format.html { redirect_to entries_path(@entry), notice: 'Entry was successfully created.' }
         format.json { render :show, status: :created, location: @entry }
       else
         format.html { render :new }
         format.json { render json: @entry.errors, status: :unprocessable_entity }
       end
     end
+    
   end
 
   # PATCH/PUT /entries/1
