@@ -1,24 +1,8 @@
-<%= form_with(model: tag, local: true) do |form| %>
-  <% if tag.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(tag.errors.count, "error") %> prohibited this tag from being saved:</h2>
-
-      <ul>
-        <% tag.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
+<%= form_with(model: [@entry, @entry.tags.build], local: true) do |form| %>
 
   <div class="field">
-    <%= form.label :content %>
+    <%= form.label :content, "Tag:" %>
     <%= form.text_field :content %>
-  </div>
-
-  <div class="field">
-    <%= form.label :entry_id %>
-    <%= form.text_field :entry_id %>
   </div>
 
   <div class="actions">

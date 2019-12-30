@@ -1,6 +1,6 @@
 class EntriesController < ApplicationController
   before_action :set_entry, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!
   # GET /entries
   # GET /entries.json
   def index
@@ -11,7 +11,9 @@ class EntriesController < ApplicationController
   # GET /entries/1.json
   def show
   end
-
+  # def show
+  #   @entry = Entry.find(params[:id])
+  # end
   # GET /entries/new
   def new
     @entry = Entry.new
@@ -24,6 +26,7 @@ class EntriesController < ApplicationController
   # POST /entries
   # POST /entries.json
   def create
+    #@user = Users.find(params[:user_id])
     @entry = Entry.new(entry_params)
 
     respond_to do |format|

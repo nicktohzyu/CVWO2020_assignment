@@ -10,10 +10,11 @@
   <%= @entry.due_date %>
 </p>
 
-<p>
-  <strong>User:</strong>
-  <%= @entry.user_id %>
-</p>
+<h2>Tags:</h2>
+<%= render @entry.tags %>
+
+<h2>Add a tag:</h2>
+<%= render 'tags/form' %>
 
 <%= link_to 'Edit', edit_entry_path(@entry) %> |
 <%= link_to 'Back', entries_path %>
