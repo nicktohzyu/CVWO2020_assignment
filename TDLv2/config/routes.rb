@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :entries do
     resources :tags
-    put '/set_done', to: 'entries#set_done'
+    put '/toggle_done', to: 'entries#toggle_done'
   end
   devise_for :users, controllers: { registrations: 'users/registrations' }
   

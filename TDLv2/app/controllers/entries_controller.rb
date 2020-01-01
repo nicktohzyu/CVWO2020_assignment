@@ -6,7 +6,7 @@ class EntriesController < ApplicationController
   # GET /entries.json
   def index
     @user = current_user.id
-    @entries = Entry.all
+    @entries = Entry.where(user_id: current_user.id)
   end
 
   # GET /entries/1
@@ -23,6 +23,10 @@ class EntriesController < ApplicationController
 
   # GET /entries/1/edit
   def edit
+    unless current_user.id == @entry.user_id
+      flash[:notice] = 'Error: That entry doesn\'t belong to you!'
+      redirect_to entries_url
+    end
   end
 
   # POST /entries
@@ -65,10 +69,10 @@ class EntriesController < ApplicationController
     end
   end
 
-  def set_done
+  def toggle_done
     #puts "test"
     @entry = Entry.find(params[:entry_id])
-    @entry.update(done: true)
+    @entry.update(done: !@entry.done)
     redirect_to entries_url
   end
 
