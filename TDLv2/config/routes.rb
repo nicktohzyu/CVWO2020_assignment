@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   resources :entries do
     resources :tags
   end
-  devise_for :users
+  devise_for :users, controllers: { registrations: 'users/registrations' }
+  
   devise_scope :user do
     get '/users/sign_out' => 'devise/sessions#destroy'
   end
