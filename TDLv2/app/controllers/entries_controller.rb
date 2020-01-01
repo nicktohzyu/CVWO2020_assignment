@@ -29,6 +29,7 @@ class EntriesController < ApplicationController
   # POST /entries.json
   def create
     @entry = current_user.entries.build(entry_params)
+    @entry.done = false #set to false by default
     respond_to do |format|
       if @entry.save
         format.html { redirect_to entries_path(@entry), notice: 'Entry was successfully created.' }
@@ -38,7 +39,6 @@ class EntriesController < ApplicationController
         format.json { render json: @entry.errors, status: :unprocessable_entity }
       end
     end
-    
   end
 
   # PATCH/PUT /entries/1
@@ -63,6 +63,13 @@ class EntriesController < ApplicationController
       format.html { redirect_to entries_url, notice: 'Entry was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def set_done
+    #puts "test"
+    @entry = Entry.find(params[:entry_id])
+    @entry.update(done: true)
+    redirect_to entries_url
   end
 
   private
