@@ -1,3 +1,7 @@
 TDLv1/**
 TDLv2/**
-TDLv4_api/.env
+TDLv3/**
+TDLv4_api/**
+TDLv5_api/node_modules
+TDLv5_api/tmp
+TDLv5_front/node_modules
