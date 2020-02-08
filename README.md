@@ -1,12 +1,14 @@
 <h3 align="center">CVWO todo manager</h3> 
 <h3 align="center">Nicholas Toh | A0201406Y</h3>
 
+Minimalist todo manager with powerful and versatile tagging, date, and search features
+
 ## Landing Page   
 <img src="https://i.imgur.com/wpzAso9.png" width="500"  />
 
 ## Registering a new account 
-<img src="https://i.imgur.com/MG1wmTo.png" width="500"  />
 <img src="https://i.imgur.com/mjDjcST.png" width="500"  />
+<img src="https://i.imgur.com/MG1wmTo.png" width="500"  />
 <img src="https://i.imgur.com/ywnxlKA.png" width="500"  />
 
 ## Creating a new entry
