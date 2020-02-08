@@ -9,6 +9,12 @@ Minimalist todo manager with powerful and versatile tagging, date, and search fe
 ## Registering a new account 
 <img src="https://i.imgur.com/mjDjcST.png" width="500"  />
 <img src="https://i.imgur.com/MG1wmTo.png" width="500"  />
+If various criteria have not been met, the page displays an error message
+<img src="https://i.imgur.com/ILt6Roy.png" width="500"  />
+
+## Signing in
+<img src="https://i.imgur.com/YiYBGYU.png" width="500"  />
+Users who are already signed in can still access the login page, but are directed to the dashboard
 <img src="https://i.imgur.com/ywnxlKA.png" width="500"  />
 
 ## Creating a new entry
