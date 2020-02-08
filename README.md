@@ -53,7 +53,7 @@ Entries are sorted by date, overdue entries are highlighted, and content too lon
 <img src="https://i.imgur.com/FGjhI6h.png" width="500"  /> <br/>
 
 ## Search and filter
-The powerful search feature filters entries live, and allows 
+The powerful search feature filters entries live <br/>
 <img src="https://i.imgur.com/TFd4vZl.png" width="500"  />
 <img src="https://i.imgur.com/HeF2myL.png" width="500"  />  
 Users can search within the entry content and tags simultaneously, while using multiple search terms <br/>
