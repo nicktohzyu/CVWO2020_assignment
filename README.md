@@ -57,6 +57,6 @@ The powerful search feature filters entries live, and allows users to search wit
 <img src="https://i.imgur.com/TFd4vZl.png" width="500"  />
 <img src="https://i.imgur.com/HeF2myL.png" width="500"  />
 <img src="https://i.imgur.com/Wj5eAHm.png" width="500"  />
-Tags are a great way to categorize entries
+Tags are a great way to categorize entries <br/>
 <img src="https://i.imgur.com/Q9BHDNu.png" width="500"  />
 
