@@ -1,0 +1,6 @@
+[submodule "TDLv5_api"]
+	path = TDLv5_api
+	url = https://github.com/nicktohzyu/TDLv5_api
+[submodule "tdlv6_front"]
+	path = tdlv6_front
+	url = https://github.com/nicktohzyu/tdlv6_front
