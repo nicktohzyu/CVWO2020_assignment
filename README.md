@@ -1,20 +1,21 @@
 <h3 align="center">CVWO todo manager</h3> 
 <h3 align="center">Nicholas Toh | A0201406Y</h3>
 
-### Landing Page   
+## Landing Page   
 <img src="https://i.imgur.com/wpzAso9.png" width="500"  />
 
-### Registering a new account 
+## Registering a new account 
 <img src="https://i.imgur.com/MG1wmTo.png" width="500"  />
+<img src="https://i.imgur.com/mjDjcST.png" width="500"  />
 <img src="https://i.imgur.com/ywnxlKA.png" width="500"  />
 
-### Creating a new entry
+## Creating a new entry
 <img src="https://i.imgur.com/I1OgSNd.png" width="500"  />
 <img src="https://i.imgur.com/wlDFgXx.png" width="500"  />
 <img src="https://i.imgur.com/ekQji09.png" width="500"  />
 <img src="https://i.imgur.com/mfdl1XK.png" width="500"  />
 
-### Editing an entry and tags
+## Editing an entry and tags
 <img src="https://i.imgur.com/nlwrRAb.png" width="500"  />
 <img src="https://i.imgur.com/yQ5qE4s.png" width="500"  />
 <img src="https://i.imgur.com/m5RYESP.png" width="500"  />
@@ -23,10 +24,10 @@ The page tracks a model of the data, and does not require a refresh after deleti
 <img src="https://i.imgur.com/BlbbRMi.png" width="500"  />
 Users can add multiple tags
 <img src="https://i.imgur.com/4OibfSZ.png" width="500"  />  
-Users have the option to delete an entry permanently, but they should instead mark it as completed without deleting  
+Users have the option to delete an entry permanently, but they should instead mark it as done
 <img src="https://i.imgur.com/Z0ZdUvw.png" width="500"  />
 
-### The Dashboard
+## The Dashboard
 Instead of deleting, users can mark an entry as done  
 <img src="https://i.imgur.com/mSRBWnA.png" width="500"  />
 <br/>
@@ -43,7 +44,7 @@ From there, users can restore the entry
 Entries are sorted by date, overdue entries are highlighted, and content too long to fit is truncated  
 <img src="https://i.imgur.com/FGjhI6h.png" width="500"  /> <br/>
 
-### Search and filter
+## Search and filter
 The powerful search feature filters entries live, and allows users to search within the entry content and tags simultaneously using multiple search terms <br/>
 <img src="https://i.imgur.com/TFd4vZl.png" width="500"  />
 <img src="https://i.imgur.com/HeF2myL.png" width="500"  />
