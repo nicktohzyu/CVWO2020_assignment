@@ -1,7 +1,7 @@
 <h3 align="center">CVWO todo manager</h3> 
 <h3 align="center">Nicholas Toh | A0201406Y</h3>
 
-https://nicktohzyu-tdlv6-front.netlify.com/ (hardcoded user to work around session bug)
+https://nicktohzyu-tdlv6-front.netlify.com/ (hardcoded user to work around session bug)  
 The front end is hosted on netlify and is live, however the API is hosted on heroku and hence may take time to wake
 
 Minimalist todo manager with powerful and versatile tagging, date, and search features
