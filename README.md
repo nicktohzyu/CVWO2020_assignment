@@ -10,7 +10,7 @@ Minimalist todo manager with powerful and versatile tagging, date, and search fe
 <img src="https://i.imgur.com/wpzAso9.png" width="500"  />
 
 ## Registering a new account 
-<img src="https://i.imgur.com/mjDjcST.png" width="500"  />
+<img src="https://i.imgur.com/RqmALCz.png" width="500"  />
 <img src="https://i.imgur.com/MG1wmTo.png" width="500"  />
 If various criteria have not been met, the page displays an error message
 <img src="https://i.imgur.com/ILt6Roy.png" width="500"  />
